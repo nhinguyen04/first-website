@@ -1,0 +1,57 @@
+body {
+    margin-left: 30%;
+    margin-right: 30%;
+    font-family: "Work Sans";
+}
+
+.main {
+    margin-top: 80px;
+}
+
+.images {
+    max-width: 100%;
+}
+
+.imageGrid {
+    display: grid;
+    gap: 10px;
+    grid-template-columns: auto auto auto;
+    background-color: grey;
+    padding: 10px;
+    align-items: center;
+}
+
+.navigationBar {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    width: 50%;
+    border-top: 3px solid grey;
+    border-bottom: 3px solid grey;
+    background-color: lightgray;
+    display: inline-flex;
+    position: fixed;
+    top: 0;
+    left: 25%;
+}
+
+.navLink {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.contactForm {
+    text-align: center;
+}
+
+.textLabel {
+    display: block;
+}
+
+.textInput {
+    width: 200px;
+}
+
+.textArea {
+    padding: 10px;
+    max-width: 200px;
+}
